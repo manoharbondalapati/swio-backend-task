@@ -1,15 +1,10 @@
-
-import './App.css';
-import First from './components/first';
-import Home from './components/home';
-import Payment from './components/payment';
+import "./App.css";
+import Main from "./components/Main";
 
 function App() {
   return (
     <div className="App">
-      {/* <Home/> */}
-      {/* <Payment/> */}
-      <First/>
+      <Main />
     </div>
   );
 }
