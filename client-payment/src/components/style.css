@@ -1,0 +1,184 @@
+h1{
+    color: white;
+    font-size: 90px;
+    margin: -20px;
+}
+h4{
+    font-size: 50px;
+    margin-top: -10px;
+    color: white;
+}
+.home{
+    background-color: black;
+}
+.homediv2:hover{
+    background-color: rgb(16, 15, 15) !important;
+    cursor: pointer;
+    
+}
+.homediv3:hover{
+    background-color: rgb(16, 15, 15) !important;
+    cursor: pointer;
+}
+.jj{
+    background-color: rgb(26, 24, 24) !important;
+
+    color:rgb(18, 29, 1);
+    color: rgb(1, 23, 1);
+    color: blueviolet;
+    color: rgb(138, 46, 46);
+}
+.art{
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 100%;
+    height: 450px;
+    background-image: url(https://replay.software/sleeve/images/SonomaWallpaperDark@2x.jpg);
+    overflow-x: hidden;
+    overflow-y: scroll;
+    
+}
+.art::-webkit-scrollbar {
+    width: 1px;  
+}
+.art::-webkit-scrollbar-track {
+    background: none;  
+    border: none;  
+}
+.art::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 10px; 
+    border: none;  
+}
+.aabb{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.aabb::-webkit-scrollbar {
+    width: 0px;  
+}
+.aabb::-webkit-scrollbar-track {
+    background: none; 
+    border: none; 
+}
+.aabb::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 10px; 
+    border: none; 
+}
+#img1{
+    position: relative;
+    margin-left: -260px;
+    z-index: 1;
+    margin-top: 40px;
+    
+}
+#img2{
+    position: relative;
+    margin-left: -250px;
+    z-index: 2;
+    margin-top: -20px;
+}
+#img3{
+    position: relative;
+    z-index: 3;
+    margin-left: -30px;
+    margin-top: 0px;
+}
+.btt{
+    border: 2px solid transparent;
+    height: 40px;
+    width: 120px;
+    color: white;
+    border-radius: 20px;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   cursor: pointer;
+}
+.btt:hover{
+    background-color:rgb(42, 41, 41);
+}
+.btt1{
+    border: 2px solid transparent;
+    height: 40px;
+    width: 160px;
+    color: white;
+    border-radius: 20px;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   cursor: pointer;
+}
+.btt1:hover{
+    background-color:rgb(42, 41, 41);
+}
+.payment{
+    color:black;
+    cursor: pointer;
+    height: 40px;
+    width: 80px;
+    border-radius: 15px;
+    /* border: transparent; */
+    position: absolute;
+    top: 15px;
+    float: right;
+    margin-left: 300px;
+    background-color: rgb(42, 41, 41);
+
+}
+.transaction{
+    color: black;
+    cursor: pointer;
+    height: 40px;
+    width: 80px;
+    position: absolute;
+    top: 15px;
+    float: right;
+    margin-left: 400px;
+    border-radius: 15px;
+    /* border: transparent; */
+    background-color: rgb(42, 41, 41);
+}
+.transaction:hover{
+    background-color: #c4c1c1;
+}
+.payment:hover{
+    background-color: #c4c1c1;
+}
+.la{
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+.form{
+    margin-top: 10%;
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    margin-left: 36%;
+    background-color: #888;
+}
+.aaaa{
+    /* border: 2px solid black; */
+    height: 100px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.paymentdiv{
+   margin-top: 10%;
+  
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  /* .transaction-card {
+    max-width: 150px;
+    width: 100%;
+  } */
